@@ -1,4 +1,4 @@
 # Online Exam
 ~~~~~
-This project intended for project only
+This repository intended for project only
 ~~~~~

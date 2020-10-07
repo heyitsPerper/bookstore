@@ -17,7 +17,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container">
-            <a class="navbar-brand" href="#">Online Exam</a>
+            <a class="navbar-brand" href="./">Online Exam</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#">Offers</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#contactus">Contact Us</a>
                 </li>
                 <li class="nav-item active">
                 <a class="nav-link px-5 mx-2 btn btn-warning" data-toggle="modal"  data-target="#exampleModalCenter" href="javascript:void(0)">Login</a>
@@ -65,8 +65,29 @@
             </div>
         </div>
 
-        <div class="container">
-            dsadas
+        <div id="contactus" class="bg-secondary text-light">
+            <div class="container p-3" style="width:80%;">
+                <h2>Contact Us</h2>
+                <h5>Any Suggestions?</h5>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="email" id="email" placeholder="Email...." required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="comment" id="comment" cols="30" rows="10" placeholder="Comment here....." required></textarea>
+                    </div>
+                    <div>
+                        <input type="button" value="Submit" class="form-control btn btn-success">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer" class="bg-dark text-light p-4">
+            <span>Develop by: Ferlyn Ruiz</span>
+            <br>
+            <p>Github link: <a href="https://github.com/heyitsPerper/bookstore#online-exam">Link Here</a></p>
+            <p>All Right Reserved @ 2020</p>
         </div>
     </div>
 
